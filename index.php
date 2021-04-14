@@ -68,4 +68,6 @@ if ($req === 'songs-list') {
   }
 
   echo json($songArray);
+} else {
+  echo json(['status' => 404]);
 }
